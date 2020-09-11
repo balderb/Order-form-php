@@ -6,16 +6,15 @@ declare(strict_types=1);
 session_start();
 
 //validation of first name and last name
-// this is for first name
+
 $name = test_input($_POST["firstname"]);
 if (!preg_match("/^[a-zA-Z-' ]*$/",$name)) {
-  $nameErr = "Only letters allowed";
+  $nameErr = "Only letters and white space allowed";
 }
 
-// this is for lastname
 $name = test_input($_POST["lastname"]);
 if (!preg_match("/^[a-zA-Z-' ]*$/",$name)) {
-  $nameErr = "Only letters allowed";
+  $nameErr = "Only letters and white space allowed";
 }
 
 function whatIsHappening() {

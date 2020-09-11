@@ -5,18 +5,7 @@ declare(strict_types=1);
 //we are going to use session variables so we need to enable sessions
 session_start();
 
-//validation of first name and last name
-// this is for first name
-$name = test_input($_POST["firstname"]);
-if (!preg_match("/^[a-zA-Z-' ]*$/",$name)) {
-  $nameErr = "Only letters allowed";
-}
 
-// this is for lastname
-$name = test_input($_POST["lastname"]);
-if (!preg_match("/^[a-zA-Z-' ]*$/",$name)) {
-  $nameErr = "Only letters allowed";
-}
 
 function whatIsHappening() {
     echo '<h2>$_GET</h2>';

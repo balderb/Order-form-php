@@ -12,7 +12,6 @@ if (!preg_match("/^[a-zA-Z-' ]*$/",$name)) {
   $nameErr = "Only letters allowed";
 }
 
-// this is for lastname
 $name = test_input($_POST["lastname"]);
 if (!preg_match("/^[a-zA-Z-' ]*$/",$name)) {
   $nameErr = "Only letters allowed";

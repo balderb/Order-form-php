@@ -26,14 +26,14 @@
         <div class="form-row">
             <div class="form-group col-md-6">
                 <label for="email">First name</label>
-                <input type="text" id="email" name="firstname" class="form-control"/>
+                <input type="text" id="email" name="email" class="form-control"/>
             </div>
             <div></div>
         </div>
         <div class="form-row">
             <div class="form-group col-md-6">
                 <label for="email">Last name</label>
-                <input type="text" id="email" name="lastname" class="form-control"/>
+                <input type="text" id="email" name="email" class="form-control"/>
             </div>
             <div></div>
         </div>
