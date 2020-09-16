@@ -9,8 +9,6 @@
     <title>Des Pardes online</title>
 </head>
 
-
-
 <body class="bg-secondary">
     <div class="container text-light">
         <h1 class="text-center">Des Pardes</h1>
